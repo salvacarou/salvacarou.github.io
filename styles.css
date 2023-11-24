@@ -1,6 +1,14 @@
+/* navbar */
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+@font-face {
+    font-family: "kidstar";
+    src: url(fuentes/Kidstar.ttf);
 }
 
 body {
@@ -28,6 +36,10 @@ body {
 nav {
     float: right;
     margin-top: 20px;
+}
+
+div h2 {
+    font-family: "kidstar"
 }
 
 nav ul {
@@ -60,6 +72,7 @@ nav ul li a:hover {
 } 
 
 /* fin de navbar */
+/* banner */
 
 #banner {
     border-radius: 10px;
@@ -90,13 +103,23 @@ nav ul li a:hover {
 }
 
 /* fin de banner */
+/*section */
 
 main section  {
     margin-top: 130px;
     display: inline-block;
     width: 700px;
     height: 800px;
-    background-image: url(img/burbujas.jpg);
+    background-image: url(img/burbujas.png);
+}
+
+.tituloQueHacemos {
+    font-family: "kidstar";
+    margin-top: 100px;
+    margin-bottom: -80px;
+    margin-left: 100px;
+    width: 100%;
+    font-size: 50px;
 }
 
 .burbTexto {
@@ -167,6 +190,55 @@ button:hover::before {
 }
 
 /* fin de seccion */
+/* novedades */
+
+.novedades {
+    background-image: url(img/novedades.png);
+    height: 700px;
+}
+
+.adentro {
+    padding: 20px 0;
+    color: #F4FAFC;
+}
+
+.grande {
+    margin-top: 100px;
+    width: 1200px;
+    height: 520px;
+    list-style: none;
+    display: inline-block;
+}
+
+.contenedorNovedades {
+    margin-left: 37.5px;
+    width: 350px;
+    height: 320px;
+    background-color: #F4FAFC;
+    display: inline-block;
+}
+
+.contenedorNovedades img {
+    height: 200px;
+    width: 350px
+}
+
+.contenedorNovedades h4 {
+    color: #314595;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.contenedorNovedades button {
+    margin-top: 5px;
+    font-size: 12px;
+    width: 180px;
+    margin-left: 150px;
+    background-color: #314595;
+}
+
+/* fin novedades */
+/* cubos */
 
 .cubos {
     margin-top: 100px;
@@ -185,14 +257,13 @@ button:hover::before {
     margin: auto;
     margin-left: 25px;
     display: inline-block;
-    
 }
 
 .img1 {
     background-image: url(img/nino1.png);
 }
 .img2 {
-    background-image: url(img/nino2.png);
+    background-image: url(img/ninaconremera.png);
 }
 .img3 {
     background-image: url(img/nino3.png);
@@ -215,6 +286,7 @@ button:hover::before {
 }
 
 /* fin de cubos */
+/* footer */
 
 footer div ul {
     text-align: center;
@@ -234,7 +306,7 @@ footer div ul li {
 footer {
     margin-top: 200px;
     background-color: #314595;
-    height: auto;
+    height: 250px;
     
 }
 
@@ -261,4 +333,16 @@ body {
     background-repeat: no-repeat;
 }
 
+.icons {
+    margin-top: 20px;
+    width: 600px;
+    height: 40px;
+}
+
+.icons li i {
+    font-size: 35px;
+}
+
+
 /* fin de footer */
+
