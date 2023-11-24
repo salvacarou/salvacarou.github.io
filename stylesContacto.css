@@ -1,0 +1,258 @@
+/* navbar */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+@font-face {
+    font-family: "kidstar";
+    src: url(fuentes/Kidstar.ttf);
+}
+
+body {
+    background-color: #F4FAFC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#contenedor {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    padding: 10px;
+}
+
+#logo {
+    background-image: url(img/logo.jpg);
+    height: 80px;
+    width: 335px;
+    font-size: 0;
+    float: left;
+}
+
+nav {
+    float: right;
+    margin-top: 20px;
+}
+
+div h2 {
+    font-family: "kidstar"
+}
+
+nav ul {
+    text-align: center;
+    width: 840px;
+}
+
+nav ul li {
+    list-style-type: none; 
+    width: 150px;
+    margin: 5px 0px;
+    margin-left: 40px;
+    display: inline-block;
+} 
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: #8CCCC5;
+    font-size: 25px;
+}
+
+nav ul li a:hover {
+    transition: background-color 0.3s ease;
+    color: #314595;
+    background-color:orange;
+    border-radius: 50%;
+} 
+
+/* fin navbar */
+/* banner */
+
+#banner {
+    border-radius: 10px;
+    padding-top: 25px;
+    margin-top: 100px;
+    width: 1200px;
+    height: 620px;
+    background-image: url(img/banner2.png);
+}
+
+.texto {
+    margin-left: 25px;
+    color: #314595;
+    padding: 25px;
+    background-color: rgba(244, 250, 252, 0.6);
+    height: 50pxpx;
+    width: 260px;
+    border-radius: 20px;
+}
+
+.texto h2 {
+    font-size: 50px;
+}
+
+/* fin banner */
+/* form */
+
+   /* html, body {
+    min-height: 100%;
+    font-size: 14px;
+    } */
+    h1 {
+    margin: 0 0 20px;
+    font-weight: 400;
+    color: #314595;
+    }
+    p {
+    margin: 0 0 5px;
+    }
+    .main-block {
+    align-items: center;
+    min-height: 900px;
+    }
+    form {
+    padding: 25px;
+    margin: 25px;
+    box-shadow: 0 2px 5px #F4FAFC; 
+    }
+    .fas {
+    margin: 25px 10px 0;
+    font-size: 72px;
+    color: #fff;
+    }
+    .fa-envelope {
+    transform: rotate(-20deg);
+    }
+    .fa-at , .fa-mail-bulk{
+    transform: rotate(10deg);
+    }
+    input, textarea {
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #314595;
+    outline: none;
+    }
+    input::placeholder {
+    color: #666;
+    }
+    button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #314595; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    }
+    button:hover {
+    background: #314595;
+    }    
+    @media (min-width: 568px) {
+    .main-block {
+    flex-direction: row;
+    }
+    .left-part, form {
+    margin: 0 auto;
+    width: 50%;
+    }
+    .fa-envelope {
+    margin-top: 0;
+    margin-left: 20%;
+    }
+    .fa-at {
+    margin-top: -10%;
+    margin-left: 65%;
+    }
+    .fa-mail-bulk {
+    margin-top: 2%;
+    margin-left: 28%;
+    }
+    }
+
+/* fin form, link: https://www.w3docs.com/learn-html/html-form-templates.html */
+
+.maps {
+    margin-top: -100px;
+    width: 1200px;
+    height: 800px;  
+}
+
+.maps iframe {
+    width: 800px;
+    margin-left: 200px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.maps h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+/*fin de maps */
+/*Footer  */
+    
+footer div ul {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+footer div ul li {
+    list-style-type: none; 
+    width: 150px;
+    margin: 5px 0px;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+footer {
+    margin-top: -100px;
+    background-color: #314595;
+    height: 250px;
+    
+}
+
+footer div {
+    height: 160px;
+    padding: 20px; 
+    text-align: center;
+    color: aliceblue;
+}
+
+footer div a {
+    color: white;
+}
+
+footer div p {
+    margin-left: 180px;
+    width: 800px;
+    margin-bottom: 0px;
+}
+
+body {
+    background-image: url(img/fondoFooter.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.icons {
+    margin-top: 20px;
+    width: 600px;
+    height: 40px;
+}
+
+.icons li i {
+    font-size: 35px;
+}
+
+/* fin de footer */
+
